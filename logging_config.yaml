@@ -1,0 +1,21 @@
+loggers:
+  airflow.task:
+    level: DEBUG
+    handlers: [task_file_handler]
+
+handlers:
+  task_file_handler:
+    class: airflow.utils.log.file_task_handler.FileTaskHandler
+    base_log_folder: /opt/airflow/logs
+    filename_template: "{{ ti.dag_id }}/{{ ti.task_id }}/{{ ts }}.log"
+    log_level: INFO
+    formatter: task_formatter
+
+formatters:
+  task_formatter:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    datefmt: "%Y-%m-%d %H:%M:%S"
+
+root:
+  level: INFO
+  handlers: [task_file_handler]

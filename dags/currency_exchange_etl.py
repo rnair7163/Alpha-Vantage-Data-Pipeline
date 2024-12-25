@@ -8,6 +8,7 @@ load_dotenv()
 
 # Load Environmental Variables
 DB_HOST = os.getenv("DB_HOST")
+# DB_HOST = 'localhost'
 DB_PORT = os.getenv("DB_PORT")
 DB_NAME = os.getenv("DB_NAME")
 DB_USER = os.getenv("DB_USER")
@@ -52,17 +53,17 @@ def setup_database(conn):
     """
     constraint_query = """
     ALTER TABLE IF EXISTS exchange_data.currency_exchange
-    ADD CONSTRAINT unique_date UNIQUE (date)
+    ADD CONSTRAINT IF NOT EXISTS unique_date UNIQUE (date)
     ; 
     """
     with conn.cursor() as cursor:
         cursor.execute(schema_query)
         cursor.execute(table_query)
-        try:
-            cursor.execute(constraint_query)
-            print("Unique constraint added to date column.")
-        except psycopg2.errors.DuplicateObject:
-            print("Unique constraint already exists.")
+        # try:
+        #     cursor.execute(constraint_query)
+        #     print("Unique constraint added to date column.")
+        # except psycopg2.errors.DuplicateObject:
+        #     print("Unique constraint already exists.")
         conn.commit()
         print("Schema and table ensured.")
 
