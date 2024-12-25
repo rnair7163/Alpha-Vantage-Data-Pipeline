@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5432:5432"
+    volumes:
+      - alpha-vantage-data-pipeline_postgres_data:/var/lib/postgresql/data
+
+  python-app:
+    build: .
+    container_name: etl_containere
+    depends_on:
+      - postgres
+    environment:
+      DB_HOST:  ${DB_HOST}
+      DB_PORT: 5432
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      API_KEY: ${API_KEY}
+    volumes:
+      - .:/alpha-vantage-data-pipeline
+
+volumes:
+  alpha-vantage-data-pipeline_postgres_data:
