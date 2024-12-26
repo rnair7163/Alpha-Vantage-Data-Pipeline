@@ -1,14 +1,14 @@
 import requests
 import os
+import sys
 from dotenv import load_dotenv
 import psycopg2 
 from datetime import datetime
 
-load_dotenv()
+load_dotenv(dotenv_path='/opt/airflow/.env')
 
 # Load Environmental Variables
 DB_HOST = os.getenv("DB_HOST")
-# DB_HOST = 'localhost'
 DB_PORT = os.getenv("DB_PORT")
 DB_NAME = os.getenv("DB_NAME")
 DB_USER = os.getenv("DB_USER")
@@ -32,9 +32,9 @@ def connect_to_db():
         )
         print("Connected to the database successfully!")
         return conn
-    except Exception as e:
+    except psycopg2.Error as e:
         print(f"Error connecting to the database: {e}")
-        return None
+        sys.exit(1)
     
 def setup_database(conn):
     schema_query = """
@@ -56,16 +56,20 @@ def setup_database(conn):
     ADD CONSTRAINT IF NOT EXISTS unique_date UNIQUE (date)
     ; 
     """
-    with conn.cursor() as cursor:
-        cursor.execute(schema_query)
-        cursor.execute(table_query)
-        # try:
-        #     cursor.execute(constraint_query)
-        #     print("Unique constraint added to date column.")
-        # except psycopg2.errors.DuplicateObject:
-        #     print("Unique constraint already exists.")
-        conn.commit()
-        print("Schema and table ensured.")
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(schema_query)
+            cursor.execute(table_query)
+            # try:
+            #     cursor.execute(constraint_query)
+            #     print("Unique constraint added to date column.")
+            # except psycopg2.errors.DuplicateObject:
+            #     print("Unique constraint already exists.")
+            conn.commit()
+            print("Schema and table ensured.")
+    except psycopg2.Error as e:
+        print(f"Database setup error: {e}", file=sys.stderr)
+        sys.exit(1)
 
 # Function to insert data into the table
 def insert_data(conn, data, date):
@@ -98,10 +102,17 @@ def insert_data(conn, data, date):
         float(data['Realtime Currency Exchange Rate']["8. Bid Price"]),
         float(data['Realtime Currency Exchange Rate']["9. Ask Price"])
     )
-    with conn.cursor() as cursor:
-        cursor.execute(query, values)
-        conn.commit()
-        print("Data inserted successfully!")
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(query, values)
+            conn.commit()
+            print("Data inserted successfully!")
+    except psycopg2.Error as e:
+        print(f"Data insertion error: {e}", file=sys.stderr)
+        sys.exit(1)
+    except KeyError as e:
+        print(f"API data parsing error: {e}", file=sys.stderr)
+        sys.exit(1)
     
 def main():
     url = f"https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=INR&apikey={API_KEY}"

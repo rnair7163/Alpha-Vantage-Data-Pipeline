@@ -1,0 +1,44 @@
+[2024-12-26T15:17:29.041+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: etl_pipeline.run_currency_exchange_etl manual__2024-12-26T15:16:36.708176+00:00 [queued]>
+[2024-12-26T15:17:29.044+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: etl_pipeline.run_currency_exchange_etl manual__2024-12-26T15:16:36.708176+00:00 [queued]>
+[2024-12-26T15:17:29.044+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-26T15:17:29.044+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 3
+[2024-12-26T15:17:29.044+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-26T15:17:29.048+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): run_currency_exchange_etl> on 2024-12-26 15:16:36.708176+00:00
+[2024-12-26T15:17:29.050+0000] {standard_task_runner.py:55} INFO - Started process 58 to run task
+[2024-12-26T15:17:29.051+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'etl_pipeline', 'run_currency_exchange_etl', 'manual__2024-12-26T15:16:36.708176+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/currency_exchange_dag.py', '--cfg-path', '/tmp/tmpktiivaq_']
+[2024-12-26T15:17:29.052+0000] {standard_task_runner.py:83} INFO - Job 38: Subtask run_currency_exchange_etl
+[2024-12-26T15:17:29.059+0000] {warnings.py:109} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:249: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2024-12-26T15:17:29.079+0000] {task_command.py:388} INFO - Running <TaskInstance: etl_pipeline.run_currency_exchange_etl manual__2024-12-26T15:16:36.708176+00:00 [running]> on host d54f3be47533
+[2024-12-26T15:17:29.106+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=etl_pipeline
+AIRFLOW_CTX_TASK_ID=run_currency_exchange_etl
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-26T15:16:36.708176+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-26T15:16:36.708176+00:00
+[2024-12-26T15:17:29.106+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-12-26T15:17:29.106+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/airflow/dags/currency_exchange_etl.py']
+[2024-12-26T15:17:29.110+0000] {subprocess.py:86} INFO - Output:
+[2024-12-26T15:17:29.392+0000] {subprocess.py:93} INFO - dotenv loaded: False
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - USD INR 85.234 2024-12-26 UTC 85.2333 85.238
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - None
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - None
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - None
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - Error connecting to the database: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - 	Is the server running locally and accepting connections on that socket?
+[2024-12-26T15:17:29.393+0000] {subprocess.py:93} INFO - 
+[2024-12-26T15:17:29.402+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-12-26T15:17:29.409+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-12-26T15:17:29.410+0000] {taskinstance.py:1318} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_pipeline, task_id=run_currency_exchange_etl, execution_date=20241226T151636, start_date=20241226T151729, end_date=20241226T151729
+[2024-12-26T15:17:29.415+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 38 for task run_currency_exchange_etl (Bash command failed. The command returned a non-zero exit code 1.; 58)
+[2024-12-26T15:17:29.439+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-12-26T15:17:29.448+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

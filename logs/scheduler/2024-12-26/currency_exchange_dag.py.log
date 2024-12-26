@@ -838,3 +838,640 @@
 [2024-12-26T01:21:51.302+0000] {logging_mixin.py:137} INFO - [2024-12-26T01:21:51.302+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2024-12-26T01:21:51.384+0000] {logging_mixin.py:137} INFO - [2024-12-26T01:21:51.384+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
 [2024-12-26T01:21:51.391+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.114 seconds
+[2024-12-26T14:38:05.605+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:38:05.607+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:38:05.608+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:38:05.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:38:05.621+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:38:05.635+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:38:05.635+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:38:05.646+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:38:05.646+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:38:05.655+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T14:38:35.874+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:38:35.875+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:38:35.876+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:38:35.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:38:35.889+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:38:35.907+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:38:35.907+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:38:35.917+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:38:35.917+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:38:35.923+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.051 seconds
+[2024-12-26T14:39:06.173+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:39:06.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:39:06.175+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:39:06.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:39:06.189+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:39:06.205+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:39:06.205+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:39:06.215+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:39:06.215+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:39:06.222+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.051 seconds
+[2024-12-26T14:39:36.413+0000] {processor.py:153} INFO - Started process (PID=32) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:39:36.414+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:39:36.415+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:39:36.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:39:36.427+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:39:36.442+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:39:36.441+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:39:36.450+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:39:36.450+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:39:36.456+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T14:40:06.648+0000] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:40:06.649+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:40:06.649+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:40:06.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:40:06.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:40:06.674+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:40:06.674+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:40:06.683+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:40:06.683+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:40:06.689+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.044 seconds
+[2024-12-26T14:40:36.932+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:40:36.933+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:40:36.934+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:40:36.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:40:36.944+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:40:36.959+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:40:36.959+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:40:36.969+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:40:36.969+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:40:36.975+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T14:41:07.221+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:41:07.222+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:41:07.223+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:41:07.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:41:07.237+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:41:07.253+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:41:07.253+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:41:07.263+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:41:07.263+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:41:07.269+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T14:41:37.493+0000] {processor.py:153} INFO - Started process (PID=36) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:41:37.494+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:41:37.494+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:41:37.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:41:37.505+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:41:37.519+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:41:37.519+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:41:37.528+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:41:37.528+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:41:37.534+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.044 seconds
+[2024-12-26T14:42:07.775+0000] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:42:07.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:42:07.776+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:42:07.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:42:07.787+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:42:07.803+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:42:07.803+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:42:07.813+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:42:07.813+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:42:07.820+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.048 seconds
+[2024-12-26T14:42:38.071+0000] {processor.py:153} INFO - Started process (PID=38) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:42:38.071+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:42:38.072+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:42:38.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:42:38.088+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:42:38.105+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:42:38.105+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:42:38.116+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:42:38.116+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:42:38.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.057 seconds
+[2024-12-26T14:43:08.451+0000] {processor.py:153} INFO - Started process (PID=39) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:43:08.451+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:43:08.452+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:43:08.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:43:08.463+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:43:08.481+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:43:08.481+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:43:08.492+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:43:08.492+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:43:08.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T14:43:38.713+0000] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:43:38.715+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:43:38.716+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:43:38.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:43:38.727+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:43:38.743+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:43:38.743+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:43:38.752+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:43:38.752+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:43:38.758+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.048 seconds
+[2024-12-26T14:44:08.955+0000] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:44:08.955+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:44:08.956+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:44:08.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:44:08.965+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:44:08.980+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:44:08.980+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:44:08.989+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:44:08.989+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:44:08.995+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.043 seconds
+[2024-12-26T14:44:39.213+0000] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:44:39.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:44:39.214+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:44:39.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:44:39.223+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:44:39.238+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:44:39.238+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:44:39.246+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:44:39.246+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:44:39.252+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.042 seconds
+[2024-12-26T14:45:09.473+0000] {processor.py:153} INFO - Started process (PID=43) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:45:09.474+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:45:09.474+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:45:09.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:45:09.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:45:09.501+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:45:09.501+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:45:09.510+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:45:09.510+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:45:09.516+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.046 seconds
+[2024-12-26T14:45:39.728+0000] {processor.py:153} INFO - Started process (PID=44) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:45:39.729+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:45:39.730+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:45:39.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:45:39.741+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:45:39.759+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:45:39.759+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:45:39.770+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:45:39.770+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:45:39.776+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T14:46:09.975+0000] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:46:09.975+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:46:09.976+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:46:09.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:46:09.988+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:46:10.003+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:46:10.003+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:46:10.012+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:46:10.012+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:46:10.018+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T14:46:40.241+0000] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:46:40.241+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:46:40.242+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:46:40.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:46:40.256+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:46:40.273+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:46:40.273+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:46:40.284+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:46:40.284+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:46:40.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.053 seconds
+[2024-12-26T14:47:10.515+0000] {processor.py:153} INFO - Started process (PID=47) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:47:10.515+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:47:10.516+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:47:10.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:47:10.526+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:47:10.541+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:47:10.541+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:47:10.551+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:47:10.551+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:47:10.557+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T14:47:40.785+0000] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:47:40.785+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:47:40.785+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:47:40.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:47:40.794+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:47:40.808+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:47:40.808+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:47:40.817+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:47:40.817+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:47:40.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.041 seconds
+[2024-12-26T14:48:09.060+0000] {processor.py:153} INFO - Started process (PID=49) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:48:09.061+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:48:09.061+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:48:09.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:48:09.074+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:48:09.089+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:48:09.089+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:48:09.099+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:48:09.099+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:48:09.106+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T14:48:39.343+0000] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:48:39.345+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:48:39.346+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:48:39.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:48:39.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:48:39.374+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:48:39.374+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:48:39.384+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:48:39.383+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:48:39.390+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T14:49:09.619+0000] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:49:09.620+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:49:09.621+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:49:09.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:49:09.633+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:49:09.650+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:49:09.650+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:49:09.659+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:49:09.659+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:49:09.666+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T14:49:39.892+0000] {processor.py:153} INFO - Started process (PID=52) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:49:39.894+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:49:39.894+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:49:39.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:49:39.906+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:49:39.922+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:49:39.922+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:49:39.932+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:49:39.932+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:49:39.938+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T14:50:10.170+0000] {processor.py:153} INFO - Started process (PID=53) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:50:10.171+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:50:10.172+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:50:10.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:50:10.183+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:50:10.200+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:50:10.200+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:50:10.210+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:50:10.209+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:50:10.216+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.048 seconds
+[2024-12-26T14:50:40.452+0000] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:50:40.454+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:50:40.454+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:50:40.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:50:40.465+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:50:40.483+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:50:40.483+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:50:40.492+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:50:40.492+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:50:40.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T14:51:10.724+0000] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:51:10.725+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:51:10.725+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:51:10.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:51:10.738+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:51:10.757+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:51:10.757+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:51:10.766+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:51:10.766+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:51:10.774+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.053 seconds
+[2024-12-26T14:51:40.999+0000] {processor.py:153} INFO - Started process (PID=56) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:51:41.000+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:51:41.001+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:51:41.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:51:41.013+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:51:41.028+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:51:41.028+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:51:41.037+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:51:41.037+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:51:41.044+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T14:52:11.270+0000] {processor.py:153} INFO - Started process (PID=57) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:52:11.271+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:52:11.271+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:52:11.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:52:11.283+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:52:11.301+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:52:11.301+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:52:11.311+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:52:11.311+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:52:11.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T14:52:41.505+0000] {processor.py:153} INFO - Started process (PID=58) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:52:41.506+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:52:41.507+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:52:41.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:52:41.522+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:52:41.540+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:52:41.540+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:52:41.549+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:52:41.549+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:52:41.556+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.054 seconds
+[2024-12-26T14:53:11.801+0000] {processor.py:153} INFO - Started process (PID=59) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:53:11.802+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:53:11.803+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:53:11.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:53:11.815+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:53:11.832+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:53:11.832+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:53:11.841+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:53:11.841+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:53:11.848+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T14:53:42.082+0000] {processor.py:153} INFO - Started process (PID=60) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:53:42.083+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:53:42.083+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:53:42.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:53:42.093+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:53:42.108+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:53:42.108+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:53:42.118+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:53:42.118+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:53:42.124+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T14:54:12.345+0000] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:54:12.346+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:54:12.346+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:54:12.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:54:12.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:54:12.373+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:54:12.373+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:54:12.382+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:54:12.382+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:54:12.388+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.046 seconds
+[2024-12-26T14:54:42.639+0000] {processor.py:153} INFO - Started process (PID=62) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:54:42.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:54:42.641+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:54:42.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:54:42.652+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:54:42.669+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:54:42.669+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:54:42.678+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:54:42.678+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:54:42.684+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.048 seconds
+[2024-12-26T14:55:09.629+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:55:09.630+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:55:09.633+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:55:09.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:55:09.642+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:55:09.656+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:55:09.656+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:55:09.669+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:55:09.669+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:55:09.676+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T14:55:39.877+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:55:39.877+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:55:39.878+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:55:39.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:55:39.889+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:55:39.904+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:55:39.904+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:55:39.912+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:55:39.912+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:55:39.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.044 seconds
+[2024-12-26T14:56:10.161+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:10.162+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:56:10.162+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:10.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:10.174+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:10.189+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:10.189+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:56:10.199+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:10.199+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:56:10.205+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T14:56:19.252+0000] {processor.py:153} INFO - Started process (PID=32) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:19.253+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:56:19.254+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:19.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:19.277+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:19.313+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:19.313+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:56:19.322+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:19.322+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:56:19.330+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.081 seconds
+[2024-12-26T14:56:49.550+0000] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:49.551+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:56:49.552+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:49.552+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:49.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:56:49.586+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:49.586+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:56:49.595+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:56:49.595+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:56:49.602+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.055 seconds
+[2024-12-26T14:57:19.879+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:57:19.881+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:57:19.881+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:57:19.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:57:19.893+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:57:19.910+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:57:19.910+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:57:19.920+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:57:19.920+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:57:19.927+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T14:57:50.168+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:57:50.169+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:57:50.169+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:57:50.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:57:50.182+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:57:50.201+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:57:50.201+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:57:50.211+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:57:50.211+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:57:50.217+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.053 seconds
+[2024-12-26T14:58:20.465+0000] {processor.py:153} INFO - Started process (PID=36) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:58:20.466+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:58:20.466+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:58:20.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:58:20.480+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:58:20.498+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:58:20.498+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:58:20.508+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:58:20.508+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:58:20.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T14:58:50.754+0000] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:58:50.755+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:58:50.756+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:58:50.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:58:50.769+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:58:50.786+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:58:50.786+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:58:50.796+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:58:50.796+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:58:50.803+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T14:59:21.040+0000] {processor.py:153} INFO - Started process (PID=38) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:59:21.041+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:59:21.042+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:59:21.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:59:21.056+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:59:21.076+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:59:21.076+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:59:21.086+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:59:21.086+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:59:21.093+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.057 seconds
+[2024-12-26T14:59:51.314+0000] {processor.py:153} INFO - Started process (PID=39) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:59:51.314+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T14:59:51.315+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:59:51.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:59:51.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T14:59:51.340+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:59:51.340+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T14:59:51.350+0000] {logging_mixin.py:137} INFO - [2024-12-26T14:59:51.350+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T14:59:51.357+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.048 seconds
+[2024-12-26T15:00:28.959+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:00:28.964+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:00:28.966+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:00:28.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:00:28.980+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:00:28.995+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:00:28.995+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:00:29.006+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:00:29.006+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:00:29.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.058 seconds
+[2024-12-26T15:00:59.194+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:00:59.195+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:00:59.195+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:00:59.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:00:59.209+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:00:59.226+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:00:59.226+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:00:59.235+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:00:59.235+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:00:59.241+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T15:01:29.437+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:01:29.438+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:01:29.438+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:01:29.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:01:29.449+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:01:29.464+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:01:29.464+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:01:29.472+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:01:29.472+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:01:29.478+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.043 seconds
+[2024-12-26T15:02:10.252+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:02:10.253+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:02:10.254+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:02:10.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:02:10.267+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:02:10.279+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:02:10.279+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:02:10.287+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:02:10.287+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:02:10.294+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.044 seconds
+[2024-12-26T15:02:40.531+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:02:40.532+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:02:40.533+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:02:40.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:02:40.551+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:02:40.572+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:02:40.571+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:02:40.583+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:02:40.583+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:02:40.589+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.060 seconds
+[2024-12-26T15:03:10.822+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:03:10.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:03:10.823+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:03:10.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:03:10.836+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:03:10.851+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:03:10.851+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:03:10.860+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:03:10.860+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:03:10.866+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.048 seconds
+[2024-12-26T15:03:41.109+0000] {processor.py:153} INFO - Started process (PID=32) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:03:41.110+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:03:41.110+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:03:41.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:03:41.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:03:41.135+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:03:41.135+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:03:41.144+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:03:41.144+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:03:41.150+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.043 seconds
+[2024-12-26T15:04:11.359+0000] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:04:11.360+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:04:11.360+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:04:11.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:04:11.375+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:04:11.392+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:04:11.392+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:04:11.401+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:04:11.401+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:04:11.408+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.053 seconds
+[2024-12-26T15:04:41.697+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:04:41.698+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:04:41.699+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:04:41.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:04:41.711+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:04:41.728+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:04:41.728+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:04:41.739+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:04:41.739+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:04:41.745+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.053 seconds
+[2024-12-26T15:05:12.026+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:05:12.027+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:05:12.028+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:05:12.028+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:05:12.042+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:05:12.060+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:05:12.060+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:05:12.072+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:05:12.072+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:05:12.079+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.059 seconds
+[2024-12-26T15:05:42.310+0000] {processor.py:153} INFO - Started process (PID=36) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:05:42.311+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:05:42.311+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:05:42.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:05:42.319+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:05:42.333+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:05:42.333+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:05:42.342+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:05:42.342+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:05:42.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.040 seconds
+[2024-12-26T15:06:12.602+0000] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:06:12.602+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:06:12.603+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:06:12.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:06:12.612+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:06:12.628+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:06:12.628+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:06:12.637+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:06:12.637+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:06:12.645+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T15:06:42.865+0000] {processor.py:153} INFO - Started process (PID=38) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:06:42.866+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:06:42.866+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:06:42.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:06:42.878+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:06:42.894+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:06:42.894+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:06:42.904+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:06:42.904+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:06:42.911+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T15:07:13.176+0000] {processor.py:153} INFO - Started process (PID=39) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:07:13.176+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:07:13.177+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:07:13.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:07:13.186+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:07:13.201+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:07:13.201+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:07:13.211+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:07:13.211+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:07:13.218+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T15:07:43.448+0000] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:07:43.450+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:07:43.450+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:07:43.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:07:43.461+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:07:43.476+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:07:43.476+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:07:43.486+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:07:43.486+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:07:43.493+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T15:08:13.741+0000] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:08:13.742+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:08:13.742+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:08:13.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:08:13.750+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:08:13.767+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:08:13.767+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:08:13.778+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:08:13.778+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:08:13.786+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T15:08:44.024+0000] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:08:44.024+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:08:44.025+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:08:44.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:08:44.037+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:08:44.053+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:08:44.053+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:08:44.064+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:08:44.064+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:08:44.071+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T15:09:14.303+0000] {processor.py:153} INFO - Started process (PID=43) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:09:14.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:09:14.304+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:09:14.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:09:14.315+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:09:14.330+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:09:14.330+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:09:14.340+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:09:14.339+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:09:14.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.046 seconds
+[2024-12-26T15:09:44.576+0000] {processor.py:153} INFO - Started process (PID=44) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:09:44.577+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:09:44.577+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:09:44.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:09:44.590+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:09:44.605+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:09:44.605+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:09:44.616+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:09:44.615+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:09:44.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T15:10:23.947+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:10:23.950+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:10:23.952+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:10:23.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:10:23.971+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:10:23.985+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:10:23.985+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:10:23.997+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:10:23.996+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:10:24.005+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.059 seconds
+[2024-12-26T15:10:54.210+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:10:54.210+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:10:54.211+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:10:54.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:10:54.225+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:10:54.242+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:10:54.242+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:10:54.251+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:10:54.251+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:10:54.256+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T15:11:24.456+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:11:24.456+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:11:24.457+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:11:24.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:11:24.468+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:11:24.483+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:11:24.483+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:11:24.491+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:11:24.491+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:11:24.497+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.043 seconds
+[2024-12-26T15:11:54.734+0000] {processor.py:153} INFO - Started process (PID=32) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:11:54.734+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:11:54.735+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:11:54.735+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:11:54.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:11:54.760+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:11:54.760+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:11:54.770+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:11:54.770+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:11:54.776+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T15:12:36.451+0000] {processor.py:153} INFO - Started process (PID=28) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:12:36.452+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:12:36.453+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:12:36.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:12:36.471+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:12:36.488+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:12:36.488+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:12:36.499+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:12:36.499+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:12:36.508+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.058 seconds
+[2024-12-26T15:13:06.713+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:13:06.714+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:13:06.714+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:13:06.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:13:06.724+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:13:06.738+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:13:06.738+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:13:06.747+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:13:06.747+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:13:06.753+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.042 seconds
+[2024-12-26T15:13:36.964+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:13:36.965+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:13:36.965+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:13:36.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:13:36.976+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:13:36.991+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:13:36.990+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:13:37.001+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:13:37.001+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:13:37.007+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.046 seconds
+[2024-12-26T15:14:07.259+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:14:07.260+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:14:07.261+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:14:07.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:14:07.274+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:14:07.289+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:14:07.289+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:14:07.300+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:14:07.300+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:14:07.307+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.051 seconds
+[2024-12-26T15:14:37.576+0000] {processor.py:153} INFO - Started process (PID=32) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:14:37.577+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:14:37.577+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:14:37.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:14:37.588+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:14:37.603+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:14:37.603+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:14:37.613+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:14:37.612+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:14:37.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds
+[2024-12-26T15:15:07.881+0000] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:15:07.882+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:15:07.883+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:15:07.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:15:07.894+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:15:07.909+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:15:07.909+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:15:07.921+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:15:07.921+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:15:07.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T15:15:38.185+0000] {processor.py:153} INFO - Started process (PID=34) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:15:38.186+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:15:38.186+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:15:38.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:15:38.196+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:15:38.210+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:15:38.210+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:15:38.220+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:15:38.220+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:15:38.226+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.044 seconds
+[2024-12-26T15:16:08.454+0000] {processor.py:153} INFO - Started process (PID=35) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:16:08.454+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:16:08.455+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:16:08.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:16:08.466+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:16:08.481+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:16:08.481+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:16:08.492+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:16:08.492+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:16:08.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T15:16:38.722+0000] {processor.py:153} INFO - Started process (PID=36) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:16:38.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:16:38.722+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:16:38.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:16:38.732+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:16:38.745+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:16:38.745+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:16:38.756+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:16:38.756+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:16:38.762+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.043 seconds
+[2024-12-26T15:17:08.982+0000] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:17:08.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:17:08.983+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:17:08.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:17:08.992+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:17:09.008+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:17:09.008+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:17:09.018+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:17:09.017+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:17:09.024+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.044 seconds
+[2024-12-26T15:17:39.286+0000] {processor.py:153} INFO - Started process (PID=38) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:17:39.286+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:17:39.287+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:17:39.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:17:39.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:17:39.312+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:17:39.312+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:17:39.322+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:17:39.322+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:17:39.329+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.046 seconds
+[2024-12-26T15:18:09.568+0000] {processor.py:153} INFO - Started process (PID=39) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:18:09.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:18:09.570+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:18:09.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:18:09.582+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:18:09.600+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:18:09.600+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:18:09.612+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:18:09.612+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:18:09.619+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.054 seconds
+[2024-12-26T15:18:39.844+0000] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:18:39.845+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:18:39.845+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:18:39.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:18:39.854+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:18:39.867+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:18:39.867+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:18:39.876+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:18:39.876+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:18:39.883+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.041 seconds
+[2024-12-26T15:19:10.125+0000] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:19:10.125+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:19:10.126+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:19:10.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:19:10.138+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:19:10.152+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:19:10.152+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:19:10.162+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:19:10.162+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:19:10.169+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T15:19:40.418+0000] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:19:40.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:19:40.419+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:19:40.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:19:40.429+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:19:40.445+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:19:40.445+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:19:40.455+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:19:40.455+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:19:40.462+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T15:20:10.703+0000] {processor.py:153} INFO - Started process (PID=43) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:20:10.704+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:20:10.704+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:20:10.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:20:10.717+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:20:10.731+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:20:10.731+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:20:10.740+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:20:10.740+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:20:10.746+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T15:20:40.994+0000] {processor.py:153} INFO - Started process (PID=44) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:20:40.995+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:20:40.995+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:20:40.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:20:41.006+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:20:41.022+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:20:41.022+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:20:41.031+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:20:41.031+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:20:41.037+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.046 seconds
+[2024-12-26T15:21:11.286+0000] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:21:11.287+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:21:11.287+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:21:11.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:21:11.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:21:11.313+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:21:11.312+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:21:11.323+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:21:11.323+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:21:11.329+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.045 seconds
+[2024-12-26T15:21:32.123+0000] {processor.py:153} INFO - Started process (PID=29) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:21:32.123+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:21:32.125+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:21:32.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:21:32.140+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:21:32.153+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:21:32.153+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:21:32.162+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:21:32.161+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:21:32.168+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.047 seconds
+[2024-12-26T15:22:02.390+0000] {processor.py:153} INFO - Started process (PID=30) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:22:02.391+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:22:02.392+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:22:02.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:22:02.411+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:22:02.437+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:22:02.437+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:22:02.448+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:22:02.448+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:22:02.455+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.068 seconds
+[2024-12-26T15:22:32.626+0000] {processor.py:153} INFO - Started process (PID=31) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:22:32.626+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:22:32.627+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:22:32.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:22:32.641+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:22:32.658+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:22:32.658+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:22:32.668+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:22:32.668+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:22:32.675+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.052 seconds
+[2024-12-26T15:23:02.895+0000] {processor.py:153} INFO - Started process (PID=32) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:23:02.895+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:23:02.896+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:23:02.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:23:02.909+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:23:02.927+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:23:02.927+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:23:02.936+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:23:02.936+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:23:02.942+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.050 seconds
+[2024-12-26T15:23:33.174+0000] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:23:33.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/currency_exchange_dag.py for tasks to queue
+[2024-12-26T15:23:33.175+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:23:33.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:23:33.187+0000] {processor.py:753} INFO - DAG(s) dict_keys(['etl_pipeline']) retrieved from /opt/airflow/dags/currency_exchange_dag.py
+[2024-12-26T15:23:33.203+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:23:33.203+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-12-26T15:23:33.213+0000] {logging_mixin.py:137} INFO - [2024-12-26T15:23:33.213+0000] {dag.py:3437} INFO - Setting next_dagrun for etl_pipeline to 2024-12-26T00:00:00+00:00, run_after=2024-12-27T00:00:00+00:00
+[2024-12-26T15:23:33.220+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/currency_exchange_dag.py took 0.049 seconds

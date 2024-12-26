@@ -8,7 +8,7 @@ default_args = {
     'depends_on_past': False,
     'start_date': datetime(2024, 12, 25),
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=2),
 }
 
 # Define the DAG
@@ -24,4 +24,3 @@ with DAG(
         task_id='run_currency_exchange_etl',
         bash_command='python /opt/airflow/dags/currency_exchange_etl.py',
     )
-

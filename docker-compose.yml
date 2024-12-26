@@ -43,6 +43,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs  # Log volume to persist logs
       - ./logging_config.yaml:/opt/airflow/logging_config.yaml
+      - .env:/opt/airflow/.env
     command: ["bash", "-c", "airflow db init && airflow webserver"]
 
   airflow-scheduler:
@@ -65,6 +66,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs  # Log volume to persist logs
       - ./logging_config.yaml:/opt/airflow/logging_config.yaml
+      - .env:/opt/airflow/.env
     command: ["bash", "-c", "airflow db init && airflow scheduler"]
 
   airflow-worker:
@@ -89,6 +91,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs  # Log volume to persist logs
       - ./logging_config.yaml:/opt/airflow/logging_config.yaml
+      - .env:/opt/airflow/.env
     command: ["bash", "-c", "airflow db init && airflow celery worker"]
 
 volumes:
