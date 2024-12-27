@@ -2778,3 +2778,33 @@ File Path                                     PID  Runtime      # DAGs    # Erro
 /opt/airflow/dags/currency_exchange_dag.py     33  0.01s             1           0  0.07s           2024-12-26T15:23:02
 ================================================================================
 [2024-12-26T15:23:39.483+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-12-27T14:53:48.358+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-12-27T14:53:48.361+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-27T14:53:48.361+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-27T14:53:48.361+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2024-12-27T14:53:48.363+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2024-12-27T14:53:56.454+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_exchange_dag.py                           1           0  0.06s           2024-12-27T14:53:48
+================================================================================
+[2024-12-27T14:54:26.711+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_exchange_dag.py                           1           0  0.06s           2024-12-27T14:54:18
+================================================================================
+[2024-12-27T14:54:56.986+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_exchange_dag.py                           1           0  0.07s           2024-12-27T14:54:48
+================================================================================
+[2024-12-27T14:55:17.096+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
