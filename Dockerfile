@@ -22,7 +22,14 @@ USER root
 
 # Install PostgreSQL development libraries and GCC
 RUN apt-get update && apt-get install -y libpq-dev gcc
-RUN mkdir -p /opt/airflow/logs && chmod -R 777 /opt/airflow/logs
+# RUN mkdir -p /opt/airflow/logs && chmod -R 777 /opt/airflow/logs
+
+RUN mkdir -p /opt/airflow/logs \
+    /opt/airflow/logs/scheduler \
+    /opt/airflow/logs/webserver \
+    /opt/airflow/logs/worker && \
+    chmod -R 777 /opt/airflow/logs && \
+    chown -R airflow:root /opt/airflow/logs
 
 USER airflow
 
