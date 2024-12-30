@@ -25,6 +25,7 @@ services:
     restart: always
     depends_on:
       - postgres
+      - redis
     environment:
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
@@ -54,6 +55,7 @@ services:
     restart: always
     depends_on:
       - postgres
+      - redis
       - airflow-webserver
     environment:
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
@@ -77,6 +79,7 @@ services:
     restart: always
     depends_on:
       - postgres
+      - redis
     environment:
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
       AIRFLOW__CORE__BASE_URL: "http://localhost:8080"
