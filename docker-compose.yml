@@ -44,7 +44,7 @@ services:
       - ./logs:/opt/airflow/logs  # Log volume to persist logs
       - ./logging_config.yaml:/opt/airflow/logging_config.yaml
       - .env:/opt/airflow/.env
-    command: ["bash", "-c", "airflow db upgrade && airflow users create -r Admin -u ${AIRFLOW_USER} -p ${AIRFLOW_PASSWORD} -e code66698@gmail.com@gmail.com -f admin -l user && airflow webserver"]
+    command: ["bash", "-c", "airflow db upgrade && airflow users create -r Admin -u ${AIRFLOW_USER} -p ${AIRFLOW_PASSWORD} -e code66698@gmail.com -f admin -l user && airflow webserver"]
 
   airflow-scheduler:
     build:
