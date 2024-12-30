@@ -67,7 +67,7 @@ services:
       - ./logs:/opt/airflow/logs  # Log volume to persist logs
       - ./logging_config.yaml:/opt/airflow/logging_config.yaml
       - .env:/opt/airflow/.env
-    command: ["airflow", "scheduler"]
+    command: ["bash", "-c", "airflow scheduler"]
 
   airflow-worker:
     build:
@@ -92,7 +92,7 @@ services:
       - ./logs:/opt/airflow/logs  # Log volume to persist logs
       - ./logging_config.yaml:/opt/airflow/logging_config.yaml
       - .env:/opt/airflow/.env
-    command: ["airflow", "celery", "worker"]
+    command: ["bash", "-c", "airflow celery worker"]
 
 volumes:
   alpha-vantage-data-pipeline_postgres_data:
